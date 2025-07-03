@@ -5,7 +5,7 @@ A stylish Laravel-based CRUD application for managing products with a modern Liv
 ## Features
 
 - Create, Read, Update, Delete (CRUD) products
-- Responsive, glassmorphic UI with Tailwind CSS
+- Responsive UI with Tailwind CSS
 - Livewire-powered form reactivity and dynamic updates
 - PostgreSQL integration for persistent storage
 - Dockerfile setup for deployment on Render
