@@ -26,8 +26,9 @@ RUN npm install && npm run build
 # Set correct permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
 
+
+RUN php artisan config:clear && php artisan config:cache
 # Expose port expected by Render (8080)
 EXPOSE 8080
-
 # Entrypoint: Run migrations and start Laravel server
 CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8080
