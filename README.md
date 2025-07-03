@@ -10,6 +10,23 @@ A stylish Laravel-based CRUD application for managing products with a modern Liv
 - PostgreSQL integration for persistent storage
 - Dockerfile setup for deployment on Render
 
+## Preview
+
+![Product Manager Preview](previews/1.png)  
+The landing page of the Product Manager application showcasing an introductory header.
+
+![CRUD Interface](previews/2.png)  
+A sleek CRUD interface where users can add, edit, or delete product entries.
+
+![Existing Products and Actions](previews/3.png)  
+A clean, responsive table showing all products with corresponding edit and delete action buttons.
+
+![Adding a Product](previews/4.png)  
+The product form being used to add a new product, with input fields for name, description, and price.
+
+![Updating a Product](previews/5.png)  
+The form pre-filled for editing an existing product, highlighting the update and cancel buttons.
+
 ## Technologies Used
 
 - PHP 8.2.12  
@@ -57,6 +74,5 @@ php artisan migrate --seed
 ### 7. Start the development server
 ```bash
 php artisan serve
-npm run dev
 ```
 Then visit: http://localhost:8000
