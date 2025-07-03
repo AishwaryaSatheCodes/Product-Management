@@ -1,8 +1,16 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-Uot7kDfy.css",
+    "file": "assets/app-lGCBlE2T.css",
     "src": "resources/css/app.css",
     "isEntry": true
+  },
+  "resources/images/prod-bg.jpg": {
+    "file": "assets/prod-bg-B0pxj42L.jpg",
+    "src": "resources/images/prod-bg.jpg"
+  },
+  "resources/images/welcome-bg.jpg": {
+    "file": "assets/welcome-bg-BTc-K3Dm.jpg",
+    "src": "resources/images/welcome-bg.jpg"
   },
   "resources/js/app.js": {
     "file": "assets/app-DNxiirP_.js",
